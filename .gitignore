@@ -1,0 +1,11 @@
+#ignore images,but not the sample image
+*.png
+*.jpg
+*.jpeg
+!appimages\\sample.png
+#ignore caches
+__pycache__
+#ignore logs
+*.log
+#ignore config files
+*.json
